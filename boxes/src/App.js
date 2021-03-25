@@ -1,11 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import Header from './Header.js';
+import Main from './Main.js';
+import Footer from './Footer.js';
+
+
+
 
 function App() {
   return (
-        <h1>
-          Hello World!
-        </h1>
+    <div> 
+
+        <Header />   
+        <Main />   
+        <Footer />
+
+
+    </div>
     
   );
 }
