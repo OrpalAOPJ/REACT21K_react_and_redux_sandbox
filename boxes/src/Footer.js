@@ -2,13 +2,11 @@ import React from 'react';
 
 const Footer = () => {
 	return (
-        <header>
-            <div>
-                
+        <footer>
+            <div> 
                 <p>Copyright stuff here</p>
-    
             </div>
-        </header>
+        </footer>
     );
 };
 

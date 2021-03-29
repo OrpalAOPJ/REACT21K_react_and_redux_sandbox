@@ -6,7 +6,6 @@ const Header = () => {
             <div>
                 <h1>Hello World!</h1>
                 <p>Some header text here</p>
-        
             </div>
         </header>
     );
