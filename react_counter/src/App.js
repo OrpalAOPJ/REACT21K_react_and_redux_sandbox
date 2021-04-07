@@ -39,8 +39,6 @@ class App extends Component {
     }    
   }
 
-
-
   resetHandler = () => {
     console.log("Reset");
     this.setState({
@@ -59,13 +57,17 @@ class App extends Component {
 
     return (
       <div>
-        <h1 className={circleClass}>{this.state.counter}</h1>
-        <button onClick={this.addHandler}>Add one</button>
-        <button onClick={this.removeHandler}>Remove one</button>
-        <button onClick={this.resetHandler}>Reset</button>
-        {/* <Header />    */}
+        <Header />
+        <div class="main_wrapper"> 
+          <h1 className={circleClass}>{this.state.counter}</h1>
+          <div class="button_wrapper">
+            <button onClick={this.addHandler}>Add one</button>
+            <button onClick={this.removeHandler}>Remove one</button>
+            <button onClick={this.resetHandler}>Reset</button>
+          </div>
         {/* <Main />    */}
-        {/* <Footer /> */}
+        </div>   
+        <Footer />
 
       </div>
     )

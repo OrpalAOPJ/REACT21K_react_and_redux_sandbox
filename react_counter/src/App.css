@@ -6,14 +6,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 button {
   padding: 1rem;
   margin: 2rem;
+  width: 120px;
   border: none;
   background-color: coral;
-  border-radius: 8%;
+  border-radius: 15px;
 }
 
 .even {
@@ -22,4 +24,42 @@ button {
 
 .odd {
   background-color: yellowgreen;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+}
+
+.main_wrapper {
+  width: 500px;
+  height: 250px;
+  background-color: slategrey;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button_wrapper {
+  display: inline-flex;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
 }
