@@ -1,11 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import Header from './Header.js';
-import Main from './Main.js';
-import Main_router from './Main_router';
-import Footer from './Footer.js';
 import {BrowserRouter as Router} from 'react-router-dom';
+import './App.css';
+
+import Header from './Components/Header';
+import Main from './Components/Main.js';
+import Footer from './Components/Footer.js';
 
 
 function App() {
@@ -13,7 +12,7 @@ function App() {
     <div> 
       <Router>
         <Header />   
-        <Main_router />   
+        <Main />   
         <Footer />
       </Router>
 

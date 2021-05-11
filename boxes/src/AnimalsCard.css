@@ -1,0 +1,41 @@
+.animal-card {
+  background-color: white;
+  height: 250px;
+  width: 200px;
+  border-radius: 15px;
+  color: black;
+  padding-top: 5px;
+  box-shadow: 0 0 5px #333;
+  margin: 1rem;
+  display: block;
+}
+
+.animal-name {
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.animal-image {
+  height: 120px;
+  width: 180px;
+  margin: 10px;
+  background-color: thistle;
+}
+
+.animal-desc {
+  height: 60px;
+  /* background-color: teal; */
+  margin: 0 10px 0 10px;
+  font-size: smaller;
+  text-align: justify;
+}
+
+.animal-link {
+  margin: 0 10px 0 10px;
+  font-size: smaller;
+  text-align: justify;
+}
+
+.animal-card img {
+  width: 180px;
+}

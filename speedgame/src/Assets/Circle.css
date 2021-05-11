@@ -1,0 +1,89 @@
+:root {
+  --circle-color-1: hsl(300, 100%, 25%);
+  --circle-color-2: hsla(300, 100%, 25%, 0.857);
+  --circle-color-3: rgba(128, 0, 128, 0.7);
+  --circle-color-4: rgba(128, 0, 128, 0.501);
+  --circle-color-5: rgba(128, 0, 128, 0.398);
+  --circle-color-6: rgba(128, 0, 128, 0.261);
+}
+
+.circle {
+  height: 125px;
+  width: 125px;
+  background-color: grey;
+  border-radius: 50%;
+  border-style: dotted;
+  border-color: coral;
+  border-width: 10px;
+  border-inline-color: blue;
+  border-inline-end-style: double;
+  border-inline-start-style: double;
+  border-bottom-style: double;
+  border-top-style: double;
+  margin: 1rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.active {
+  background-color: white;
+  /* background-image: url("https://c0.klipartz.com/pngpicture/869/264/gratis-png-emoji-sorprendido-emoticon-de-la-etiqueta-emoji-emojis.png"); */
+  background-image: url("./img/gratis-png-emoji-sorprendido-emoticon-de-la-etiqueta-emoji-emojis.png");
+  background-size: 280px;
+  background-repeat: initial;
+  background-position-x: -75px;
+  background-position-y: -20px;
+  border-color: blue;
+}
+
+.circle-wrapper {
+  height: 200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  /* background-color: floralwhite; */
+}
+
+.color1 {
+  background-color: var(--circle-color-1);
+  /* background-image: url("https://c0.klipartz.com/pngpicture/869/264/gratis-png-emoji-sorprendido-emoticon-de-la-etiqueta-emoji-emojis.png");
+  background-size: 280px;
+  background-repeat: initial;
+  background-position-x: -75px;
+  background-position-y: -20px; */
+}
+
+.color2 {
+  background-color: var(--circle-color-2);
+}
+
+.color3 {
+  background-color: var(--circle-color-3);
+}
+
+.color4 {
+  background-color: var(--circle-color-4);
+}
+
+.color5 {
+  background-color: var(--circle-color-3);
+}
+
+.color6 {
+  background-color: var(--circle-color-4);
+}
+
+footer a {
+  font-size: xx-small;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  text-align: right;
+  visibility: hidden;
+}

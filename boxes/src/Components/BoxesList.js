@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Box from "./Box";
 
-class Main extends Component {
+class BoxesList extends Component {
   state = {
     persons : [
       {
@@ -93,4 +93,4 @@ class Main extends Component {
 
 
 
-export default Main;
+export default BoxesList;

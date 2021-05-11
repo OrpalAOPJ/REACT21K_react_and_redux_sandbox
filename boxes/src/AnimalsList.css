@@ -1,0 +1,10 @@
+.cards-wrapper {
+  /* width: 100vh; */
+  min-height: 400px;
+  justify-content: center;
+  display: flex;
+  background-color: turquoise;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+}

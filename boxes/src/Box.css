@@ -1,0 +1,13 @@
+.box {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: teal;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.box:hover {
+  box-shadow: gray;
+}
